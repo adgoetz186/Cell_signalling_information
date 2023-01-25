@@ -1,9 +1,8 @@
-# Cell_signalling_information
+# Cell Signalling Information
+
 Code used to generate data for paper "Information Transmission by Individual Cells"
 
-# Navigation
-
-## Project Organization
+# Project Organization
 
 The project was structured around generating plots for a paper. As a result programs which are directly used for making a specific figure are stored in a directory which indicates the figure and subfigure. For example, the [program](Mutual_Information_Final_Version/Figure_Generating_Programs/Figure_2/C/single_cell_responses.py) which generates [figure 2C](Mutual_Information_Final_Version/Figures/Figure_2/C/response_distributions.png) is contained in the [figure generating section](Mutual_Information_Final_Version/Figure_Generating_Programs) while figure 2C is stored in the [figure](Mutual_Information_Final_Version/Figures/) section.
 

@@ -7,3 +7,5 @@ The project was structured around generating plots for a paper. As a result prog
 Custom function libraries are stored in functions/, this encompases the bulk of the machinery of the program with Mutual_Information_Final_Version/functions/mutual_information_functions/MI_Calculation_Functions.py in particular being a central function library as it contains functions for obtaining the mutual information as well as finding the optimal input distribution and corresponding channel capacity.
 
 At the current time the paper manuscript is under construction. It will be linked here to provide context for the programs when completed. Until that point, the "Mutual Information Poster.png" will be provided to give context and scientific motivation for many of the algorithms and figures contained in this project.
+
+Programs are stored along with corresponding arguments files which tells the program exactly what to do. This convention was chosen to allow for multiple argument configurations to be ran and saved (enabling full reproducability) while also cutting down on bulky path strings in program files.

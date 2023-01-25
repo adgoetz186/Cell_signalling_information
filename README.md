@@ -13,7 +13,7 @@ The [directory](Mutual_Information_Final_Version/functions/) containing custom f
 
 ## Context and Motivation of Work
 
-At the current time the paper manuscript is under construction. It will be linked here to provide context for the programs when completed. Until that point, a [poster](Mutual_Information_Final_Version/Mutual Information Poster.png) on the work will be provided to give context and scientific motivation for many of the algorithms and figures contained in this project.
+At the current time the paper manuscript is under construction. It will be linked here to provide context for the programs when completed. Until that point, a [poster](Mutual_Information_Final_Version/Mutual_Information_Poster.png) on the work will be provided to give context and scientific motivation for many of the algorithms and figures contained in this project.
 
 ## Arguement Files
 

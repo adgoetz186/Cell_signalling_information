@@ -7,4 +7,4 @@ Custom function libraries are stored in Mutual_Information_Final_Version/functio
 
 At the current time the paper manuscript is under construction. It will be linked here to provide context for the programs when completed. Until that point, the "Mutual Information Poster.png" will be provided to give context and scientific motivation for many of the algorithms and figures contained in this project.
 
-Programs are stored along with corresponding arguments files which tells the program exactly what to do. This convention was chosen to allow for multiple argument configurations to be ran and saved (enabling full reproducibility) while also cutting down on bulky path strings in program files.
+Programs are stored along with corresponding argument files which tells the program exactly what to do. This convention was chosen to allow for multiple argument configurations to be ran and saved (enabling full reproducibility) while also cutting down on bulky path strings in program files.

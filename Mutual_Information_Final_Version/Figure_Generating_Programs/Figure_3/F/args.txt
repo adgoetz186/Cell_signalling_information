@@ -1,0 +1,23 @@
+# Arguments should be specified of the form:
+# arg_name: arg
+# arg is read with eval() function so should be of appropriate form
+# Experimental multi-dose trajectories file path
+expt_md_moment_path: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/IGFR/experimental_data/adjusted_multidose/MultiDose.csv"
+# Model multi-dose moments file path
+mdl_md_moment_path: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/IGFR/Information_Values/Model_CeeMI_Step_Dose/mdl_moments_used.csv"
+# Experimental mutual information file path
+expt_mi_path: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/IGFR/Information_Values/Experimental_Step_Dose_MI_CSAR/Expt_CeeMI_Step_Dose.csv"
+# Model mutual information file path
+mdl_mi_path: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/IGFR/Information_Values/Model_CeeMI_Step_Dose/single_cell_mi_array.csv"
+# File path for figure image file
+output_path: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Figures/Figure_3/E/MI_vs_IFO"
+# Binning used for trend lines
+bin_count: 20
+# color of model density plot
+mdl_color: (0,33/255,165/255)
+# color of experimental scatter plot
+expt_color: (200/255,30/255,2/255)
+# color of model trend line
+mdl_trend_color: '#39ff14'
+# color of experimental trend line
+expt_trend_color: "cyan"

@@ -1,0 +1,19 @@
+# Arguments should be specified of the form:
+# arg_name: arg
+# arg is read with eval() function so should be of appropriate form
+# Specifies path to experimental dose response data
+dose_response_dir: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/EGFR/Experimental_Values/EGFR_data_10cond_scaled_dict.npy"
+# Specifies output path
+output_path: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Figures/Figure_2/E/dose_response.png"
+# numerical dose list
+dose: [0.0001,0.0078125,0.015625,0.03125,0.0625,0.125,0.25,0.5,1,100]
+# doses to plot histogram x values
+dose_to_hist: [0.0001,0.015625,0.5]
+# doses to plot histogram dictionary keys
+dose_hist_key: ['egf_0.0_nM','egf_0.015625_nM','egf_0.5_nM']
+# specifies colors of the mean dose/response
+mean_color: "black"
+# specifies colors of the standard deviation of the response
+dev_color: "#FA4616"
+# specifies colors of the single cell response histogram
+dist_color: "#0021A5"

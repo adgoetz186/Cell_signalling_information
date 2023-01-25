@@ -1,0 +1,11 @@
+# Arguments should be specified of the form:
+# arg_name: arg
+# arg is read with eval() function so should be of appropriate form
+# Experimental multi-dose moments file path
+number_of_cells_to_use: 50000
+L: [0,17.5,37.5,125]
+L_names: ["0_pm","17.5_pm","37.5_pm","125_pm"]
+parameter_file_path: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/IGFR/Model_Params/params_162/params_162.csv"
+output_file_path: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/IGFR/Moments/Model_Moments/4_dose_response/moments_162_4_dose_60_90_min.csv"
+output_header_file_path: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/IGFR/Moments/Model_Moments/4_dose_response/moments_162_4_dose_60_90_min_header_structure.csv"
+times: [60, 90]

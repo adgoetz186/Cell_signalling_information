@@ -1,0 +1,15 @@
+# Arguments should be specified of the form:
+# arg_name: arg
+# arg is read with eval() function so should be of appropriate form
+# Model mutual information file path
+mdl_mi_path: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/EGFR/Information_Values/mdl_EGFR_nf_1/single_cell_MI.csv"
+# Model channel capacity file path
+mdl_cc_in_path: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/EGFR/Information_Values/mdl_EGFR_nf_1/cc_input_distribution"
+# File path for figure image file
+output_path: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Figures/Figure_2/F/single_cell_performance"
+# Number of bins
+bin_count: 50
+# color of model plot elements
+mdl_color: '#ff85a2'
+# color of experimental plot elements
+expt_color: '#0096FF'

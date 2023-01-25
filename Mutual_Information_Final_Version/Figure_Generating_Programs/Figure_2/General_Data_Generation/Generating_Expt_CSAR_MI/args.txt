@@ -1,0 +1,23 @@
+# Arguments should be specified of the form:
+# arg_name: arg
+# arg is read with eval() function so should be of appropriate form
+# Experimental response moment 1
+expt_mom_1: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/EGFR/Experimental_Moments/EGFR_mean_10Conditions_20201116.npy"
+# Experimental response moment 2
+expt_mom_2: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/EGFR/Experimental_Moments/EGFR_2ndMomentMean_10Conditions_20201116.npy"
+# location of output moment directories
+output_information_dir: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/EGFR/Information_Values/expt_EGFR"
+# au conversion factor
+au_cf: 0.00122
+# location to the file of raw cell data (moments or parameters)
+CeeMI_raw_data_folder_location: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/EGFR/Raw_Cell_Files_Conditioning"
+# location to the file of conditional response matrices
+CeeMI_crm_data_folder_location: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/EGFR/CRM_conditioning"
+# name of the file of raw cell data (moments or parameters)
+CeeMI_raw_data_folder: "expt_raw"
+# name of the file of conditional response matrices (moments or parameters)
+CeeMI_crm_data_folder: "expt_crm"
+# the assumed shape of the conditional response distribution
+distribution_type: "gamma"
+# determined by the parameter multiplied by the smallest inter quartile range for any of the conditional responses
+discretization_parameter: 0.2

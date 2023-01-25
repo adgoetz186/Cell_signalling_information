@@ -1,0 +1,30 @@
+# Arguments should be specified of the form:
+# arg_name: arg
+# arg is read with eval() function so should be of appropriate form
+# location of mean directory
+mean_dir: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/EGFR/means_and_variances/noise_factor_32/mu_184.csv"
+# location of variance directory
+var_dir: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/EGFR/means_and_variances/noise_factor_32/var_184.csv"
+# location of output moment directories
+output_information_dir: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/EGFR/Information_Values/mdl_EGFR_nf_32"
+# mean files should all share this in their name which should not be found in any var file name
+mean_file_identifier: "mu"
+# var files should all share this in their name which should not be found in any mean file name
+var_file_identifier: "var"
+# output file name, each file will go to an identifying folder, should include .csv extention
+output_filename: "mdl_Cee_MI.csv"
+# discretization parameter to convert the cell's continuous response into a discrete distribution with a bin size
+# determined by the parameter multiplied by the smallest inter quartile range for any of the conditional responses
+discretization_parameter: 0.2
+# the assumed shape of the conditional response distribution
+distribution_type: "gamma"
+# location to the file of raw cell data (moments or parameters)
+CeeMI_raw_data_folder_location: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/EGFR/Raw_Cell_Files_Conditioning"
+# location to the file of conditional response matrices
+CeeMI_crm_data_folder_location: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/EGFR/CRM_conditioning"
+# name of the file of raw cell data (moments or parameters)
+CeeMI_raw_data_folder: "raw_nf_32"
+# name of the file of conditional response matrices (moments or parameters)
+CeeMI_crm_data_folder: "crm_nf_32"
+# number of cells to use
+cell_count: 7000

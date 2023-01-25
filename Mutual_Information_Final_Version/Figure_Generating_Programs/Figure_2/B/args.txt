@@ -1,0 +1,33 @@
+# Arguments should be specified of the form:
+# arg_name: arg
+# arg is read with eval() function so should be of appropriate form
+# Cee_MI for variable degradation rate, kdeg
+cmi_deg_varies_filename: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/Toy_Model/Information_Values/framework_comparison/toy_model_system_cmi_deg.csv"
+# MI of CSAR for variable degradation rate, kdeg
+mi_deg_varies_filename: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/Toy_Model/Information_Values/framework_comparison/toy_model_system_mi_deg.csv"
+# Cee_MI for variable average initial receptor count, r0
+cmi_r0_varies_filename: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/Toy_Model/Information_Values/framework_comparison/toy_model_system_cmi_r0.csv"
+# MI of CSAR for variable average initial receptor count, r0
+mi_r0_varies_filename: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/Toy_Model/Information_Values/framework_comparison/toy_model_system_mi_r0.csv"
+# Location to store the figure
+output_folder: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Figures/Figure_2/B/"
+# Location name of the figure
+output_name_suffix: "information_comparison"
+# single cell performance under different initial receptor counts, r0
+mi_r0_sc_filename: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/Figure_Generating_Data/Figure_2/B/single_cell_toy_model_system_cmi_single_cell_r0.csv"
+# single cell performance under different degradation rates, kdeg
+mi_deg_sc_filename: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/Figure_Generating_Data/Figure_2/B/single_cell_toy_model_system_cmi_single_cell_deg.csv"
+# list of input cv values to use
+input_cv_list: ["-1","-1/2","0"]
+# Percentile spread to use
+sp: [5,95]
+# Spread color
+s_color: "blue"
+# Spread alpha
+sa: 0.6
+# CeeMI color
+ceemi_color: "black"
+# MI of CSAR color
+micsar_color: "blue"
+# single cell performance under different parameters color
+sc_color: "blue"

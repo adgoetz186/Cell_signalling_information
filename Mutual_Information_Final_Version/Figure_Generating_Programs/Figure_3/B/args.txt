@@ -1,0 +1,23 @@
+# Arguments should be specified of the form:
+# arg_name: arg
+# arg is read with eval() function so should be of appropriate form
+# CeeMI array pathway
+ceemi_path: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/IGFR/Information_Values/Model_CeeMI_Trajectory/cmi_array.csv"
+# CeeMI cc input pathway
+ceemi_input_path: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/IGFR/Information_Values/Model_CeeMI_Trajectory/cc_cmi_array.csv"
+# expt MI pathway
+expt_mi_path: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/IGFR/Information_Values/Experimental_MI_CSAR/exp_mi.csv"
+# expt MI input pathway
+expt_mi_input_path: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/Figure_Generating_Data/Figure_3/3_a-b/exp_cc_mi.csv"
+# mi for single cells pathway
+mi_single_cell_path: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/Figure_Generating_Data/Figure_3/3_a-b/single_cell_mi_array.csv"
+# File path for figure image file
+output_path: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Figures/Figure_3/B/model_csar_comp"
+# Color of model in plot
+mdl_color: "#0021A5"
+# Color of experiment in plot
+expt_color: "green"
+# Color of limit in plot
+lim_color: "grey"
+# Percentile values to determine single cell spread
+sp: [5,95]

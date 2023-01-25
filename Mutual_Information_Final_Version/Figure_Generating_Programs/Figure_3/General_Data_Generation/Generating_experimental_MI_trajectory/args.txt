@@ -1,0 +1,32 @@
+# Arguments should be specified of the form:
+# arg_name: arg
+# arg is read with eval() function so should be of appropriate form
+# path to the moments file
+moments_file_path: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/IGFR/Moments/experimental_moments_population/experimental_single_dose.csv"
+# path to the moments file header path
+cell_moments_header_path: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/IGFR/Moments/experimental_moments_population/experimental_single_dose_header.txt"
+# path to the output folder
+output_dir: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/IGFR/Information_Values/Experimental_MI_CSAR/"
+# name of output channel capacity input distribution filename
+input_dist_filename: "exp_cc_mi.csv"
+# name of output information performance filename
+info_perf_filename: "exp_mi.csv"
+# list of time values to use (minutes)
+time_list: [0, 6, 12, 24, 45, 60, 90]
+# number of inputs (minutes)
+dose_count: 5
+# time to use to generate the channel capacity input (minutes)
+time_for_cc_input: 90
+# location to the file of raw cell data (moments or parameters)
+exp_MI_raw_data_folder_location: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/IGFR/Raw_Cell_Files_Conditioning/experimental_300_cells/"
+# location to the file of conditional response matrices
+exp_MI_crm_data_folder_location: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/IGFR/CRM_conditioning/experimental_300_cells/"
+# prefix of the file of raw cell data (moments or parameters)
+exp_MI_raw_data_folder_prefix: "MI_exp_300_cell"
+# prefix of the file of conditional response matrices (moments or parameters)
+exp_MI_crm_data_folder_prefix: "MI_exp_300_cell"
+# discretization parameter to convert the cell's continuous response into a discrete distribution with a bin size
+# determined by the parameter multiplied by the smallest inter quartile range for any of the conditional responses
+discretization_parameter: 0.2
+# the assumed shape of the conditional response distribution
+distribution_type: "gamma"

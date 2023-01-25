@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/Mutual_Information_Final_Version/Data_2" />
+      <excludeFolder url="file://$MODULE_DIR$/Mutual_Information_Final_Version/Data/IGFR/Moments" />
+      <excludeFolder url="file://$MODULE_DIR$/Mutual_Information_Final_Version/Data/IGFR/Raw_Cell_Files_Conditioning" />
+      <excludeFolder url="file://$MODULE_DIR$/Mutual_Information_Final_Version/Data/IGFR/CRM_conditioning" />
+    </content>
+    <content url="file://$MODULE_DIR$/Mutual_Information_Final_Version/Data/EGFR" />
+    <content url="file://$MODULE_DIR$/Mutual_Information_Final_Version/Data/Figure_Generating_Data" />
+    <content url="file://$MODULE_DIR$/Mutual_Information_Final_Version/Data/IGFR/CRM_conditioning" />
+    <content url="file://$MODULE_DIR$/Mutual_Information_Final_Version/Data/IGFR/Moments" />
+    <content url="file://$MODULE_DIR$/Mutual_Information_Final_Version/Data/IGFR/Raw_Cell_Files_Conditioning" />
+    <content url="file://$MODULE_DIR$/Mutual_Information_Final_Version/Data/Toy_Model" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

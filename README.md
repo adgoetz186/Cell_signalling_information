@@ -12,12 +12,22 @@ The "[functions](Mutual_Information_Main/functions/)" directory contains custom 
 
 The "[General_Data_Generation](Mutual_Information_Main/General_Data_Generation/)" directory contains programs used to generate essential data for plots but do not directly generate plots themselves.
 
-The "[Initialization_File](Mutual_Information_Main/functions/)" directory contains the ".pth" file which may be used to add the project to sys.path.
+The "[Initialization_File](Mutual_Information_Main/Initialization_File/)" directory contains the ".pth" file which may be used to add the project to sys.path.
 
 The "[Mathematica_Moment_Code](Mutual_Information_Main/Mathematica_Moment_Code/)" directory contains mathematica code used to generate and process the moment closure equations.
 
-# Additional Notes
+# Setup
 
-## Context and Motivation of Work
+The raw data used in this code is stored here: (). To run any of the programs used in this project, download the raw data and place it in the Mutual_Information_Main directory.
 
-At the current time the paper manuscript is under construction. It will be linked here to provide context for the programs when completed. Until that point, a [poster](Mutual_Information_Final_Version/Mutual_Information_Poster.png) on the work will be provided to give context and scientific motivation for many of the algorithms and figures contained in this project.
+## Troubleshooting
+
+Errors with custom function imports:
+The Cell_signalling_information directory should be a sources root directory. This can be done by replacing the contents of (signaling_paths.pth)[Mutual_Information_Main/Initialization_File/signaling_paths.pth] with the path to your "Cell_signaling_information" folder then adding it into your python's site-packages directory.
+
+Errors with setting working directory:
+The program automatically searches for the "Cell_signaling_information" directory, but in rare cases this will fail
+There are two possible fixes:
+1. Replace the contents of (signaling_paths.pth)[Mutual_Information_Main/Initialization_File/signaling_paths.pth] with the path to your "Cell_signaling_information" folder then adding it into your python's site-packages directory.
+2. Add the path to your "Cell_signaling_information" folder directly into the .py file just under the "# Cell_signaling_information path here" comment
+

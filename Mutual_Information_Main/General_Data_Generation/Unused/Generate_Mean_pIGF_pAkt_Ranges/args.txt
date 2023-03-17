@@ -1,0 +1,15 @@
+# Arguments should be specified of the form:
+# arg_name: arg
+# arg is read with eval() function so should be of appropriate form
+# path to the params file
+params_file_path: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/IGFR/Information_Values/Model_CeeMI_Step_Dose/mdl_params_used.csv"
+# path to the output directory
+output_dir_path: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/IGFR/pIGFR_pAkt_Ranges/"
+# times to simulate
+times: [0, 60, 90]
+# recorded time steps
+t_delta: 180
+# list of doses
+L: [0, 0.125]
+# number of cells to use
+cell_count: 2000

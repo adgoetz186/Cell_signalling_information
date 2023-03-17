@@ -1,0 +1,35 @@
+# Arguments should be specified of the form:
+# arg_name: arg
+# arg is read with eval() function so should be of appropriate form
+# path to the params file
+params_file_path: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/IGFR/Model_Params/params_162/params_162.csv"
+# path to the params file header path
+cell_params_header_path: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/IGFR/Model_Params/params_162/params_162_header_structure.txt"
+# path to the moments file
+moments_file_path: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/IGFR/Moments/Model_Moments/5_dose_response/moments_162_5_dose_7_times.csv"
+# path to the moments file header path
+cell_moments_header_path: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/IGFR/Moments/Model_Moments/5_dose_response/moments_162_5_dose_7_times_header_structure.csv"
+# path to the output directory
+output_dir: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/IGFR/Information_Values/Model_CeeMI_Trajectory"
+# number of cells per trial
+number_of_cells: 300
+# number of trial run
+number_of_runs: 100
+# number of inputs
+number_of_inputs: 5
+# list of time values to be used
+time_list: [0,6,12,24,45,60,90]
+# prefix of the file of raw cell data (moments or parameters)
+CeeMI_raw_data_dir_prefix: "CeeMI_mdl_300_cell"
+# location to the file of raw cell data (moments or parameters)
+CeeMI_raw_data_dir_location: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/IGFR/Raw_Cell_Files_Conditioning/Model_CeeMI_Trajectory"
+# location to the file of conditional response matrices
+CeeMI_crm_data_dir_location: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/IGFR/CRM_conditioning/Model_CeeMI_Trajectory"
+# prefix of the file of conditional response matrices (moments or parameters)
+CeeMI_crm_data_dir_prefix: "CeeMI_mdl_300_cell"
+# time to use to generate the channel capacity input (minutes)
+time_for_cc_input: 90
+# determined by the parameter multiplied by the smallest inter quartile range for any of the conditional responses
+discretization_parameter: 0.05
+# the assumed shape of the conditional response distribution
+distribution_type: "gamma"

@@ -33,10 +33,10 @@ os.chdir(path_to_MIM)
 params_path = Path("Data/IGFR/Model_Params/params_162/params_162.csv")
 
 # Specifies path to output
-output_path = Path("Data/IGFR/Moments/Model_Moments/3_dose_response/moments_162_3_dose_full_time")
+output_path = Path("Data/IGFR/Moments/Model_Moments/4_dose_response/moments_162_4_dose_60_90_min")
 
 # Specifies path to output header
-output_path_header = Path("Data/IGFR/Moments/Model_Moments/3_dose_response/moments_162_3_dose_full_time_header_structure.csv")
+output_path_header = Path("Data/IGFR/Moments/Model_Moments/4_dose_response/moments_162_4_dose_60_90_min_header_structure.csv")
 # _____ File path declarations END _____
 
 # _____ Loading files BEGIN _____
@@ -46,11 +46,11 @@ params = np.loadtxt(params_path,delimiter=",")
 
 
 # _____ Main code BEGIN _____
-# number of cells to generate
-number_of_cells_to_use = 1
-L = [0,20,50]
-L_names = ["0_pm","20_pm","50_pm"]
-times_arr = np.array([0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78, 81, 84, 87, 90])*60
+# number of cells to generate (50000)
+number_of_cells_to_use = 50000
+L = [0,17.5,37.5,125]
+L_names = ["0_pm","17.5_pm","37.5_pm","125_pm"]
+times_arr = np.array([60, 90])*60
 times_names = [f"{int(i/60)}_min" for i in times_arr]
 L = [i/1000 for i in L]
 nd = len(L)

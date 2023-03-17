@@ -2,7 +2,7 @@ import numpy as np
 import time
 import sys
 import os
-from pathlib import Path
+from pathlib import Path, PureWindowsPath
 import scipy.stats as st
 import matplotlib.pyplot as plt
 from Mutual_Information_Main.functions.toy_model_functions import Toy_Model_Functions as tmf

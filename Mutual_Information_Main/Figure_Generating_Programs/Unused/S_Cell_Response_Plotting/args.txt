@@ -1,0 +1,17 @@
+# Arguments should be specified of the form:
+# arg_name: arg
+# arg is read with eval() function so should be of appropriate form
+# Specifies path to file which contains experimental moments
+expt_moments_path: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/IGFR/Moments/experimental_moments_single_cell/multidose_moments.csv"
+# Specifies path to file which contains moments from ode solution
+mdl_moments_path: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/IGFR/Information_Values/Model_CeeMI_Step_Dose/mdl_moments_used.csv"
+# Specifies path to file which contains experimental MI values
+expt_mi_path: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/IGFR/Information_Values/Experimental_Step_Dose_MI_CSAR/Expt_CeeMI_Step_Dose.csv"
+# Specifies path to file which contains model MI values
+mdl_mi_path: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/IGFR/Information_Values/Model_CeeMI_Step_Dose/single_cell_mi_array.csv"
+# Specifies output path
+output_path: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Figures/Supplementary/moment_experiment_response_examples/moment_experiment_response_examples"
+# Specifies color of response
+colors: ["orange","green","blue","red"]
+# Dimensions of figure
+fig_dim: [8,10]

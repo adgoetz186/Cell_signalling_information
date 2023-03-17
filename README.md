@@ -28,6 +28,6 @@ The Cell_signalling_information directory should be a sources root directory. Th
 Errors with setting working directory:
 The program automatically searches for the "Cell_signaling_information" directory, but in rare cases this will fail
 There are two possible fixes:
-1. Replace the contents of (signaling_paths.pth)[Mutual_Information_Main/Initialization_File/signaling_paths.pth] with the path to your "Cell_signaling_information" folder then adding it into your python's site-packages directory.
+1. Replace the contents of [signaling_paths.pth](Mutual_Information_Main/Initialization_File/signaling_paths.pth) with the path to your "Cell_signaling_information" folder then adding it into your python's site-packages directory.
 2. Add the path to your "Cell_signaling_information" folder directly into the .py file just under the "# Cell_signaling_information path here" comment
 

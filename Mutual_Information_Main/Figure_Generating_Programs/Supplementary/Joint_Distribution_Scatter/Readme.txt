@@ -1,0 +1,6 @@
+To generate the data displayed in this figure, run:
+1. General_Data_Generation/IGFR_params_to_moments/igfr_params_to_moments_4_dose.py (Generates moments from drawn parameters)
+2. General_Data_Generation/IGFR_Experimental_Data_Processing/multidose_processing/multidose_data_processing.py (Processes raw experimental data)
+3. General_Data_Generation/IGFR_Experimental_Data_Processing/generate_step_dose_moments/generate_step_dose_moments.py (Converts experimental data trajectory to moments)
+4. General_Data_Generation/IGFR_Generating_Experimental_Step_Dose_Single_Cell_Performances/IGFR_Generating_Experimental_Step_Dose_Single_Cell_Performances.py (ICee for experimental data)
+5. General_Data_Generation/IGFR_Generating_Model_Step_Dose_CeeMI/IGFR_Generating_Model_Step_Dose_CeeMI.py (ICee for model data)

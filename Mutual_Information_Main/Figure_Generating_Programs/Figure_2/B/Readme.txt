@@ -1,0 +1,2 @@
+This program generates the data needed for display. Within the program file there is an option to view the responses
+for the case where kdeg varies by simply removing the "#" from the second plt.show() line.

@@ -2,10 +2,29 @@
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/Mutual_Information_Final_Version/Data_2" />
       <excludeFolder url="file://$MODULE_DIR$/Mutual_Information_Final_Version/Data/IGFR/Moments" />
       <excludeFolder url="file://$MODULE_DIR$/Mutual_Information_Final_Version/Data/IGFR/Raw_Cell_Files_Conditioning" />
       <excludeFolder url="file://$MODULE_DIR$/Mutual_Information_Final_Version/Data/IGFR/CRM_conditioning" />
+      <excludeFolder url="file://$MODULE_DIR$/Mutual_Information/Data/EGFR/CRM_conditioning" />
+      <excludeFolder url="file://$MODULE_DIR$/Mutual_Information/Data/EGFR/Raw_Cell_Files_Conditioning" />
+      <excludeFolder url="file://$MODULE_DIR$/Mutual_Information/Data/IGFR/CRM_conditioning" />
+      <excludeFolder url="file://$MODULE_DIR$/Mutual_Information/Data/IGFR/Raw_Cell_Files_Conditioning" />
+      <excludeFolder url="file://$MODULE_DIR$/Mutual_Information_Main/Data/EGFR/CRM_conditioning" />
+      <excludeFolder url="file://$MODULE_DIR$/Mutual_Information_Main/Data/EGFR/Raw_Cell_Files_Conditioning" />
+      <excludeFolder url="file://$MODULE_DIR$/Mutual_Information_Main/Data/IGFR/CRM_conditioning" />
+      <excludeFolder url="file://$MODULE_DIR$/Mutual_Information_Main/Data/IGFR/Raw_Cell_Files_Conditioning" />
+      <excludeFolder url="file://$MODULE_DIR$/Mutual_Information_Main/Data/EGFR/CRM" />
+      <excludeFolder url="file://$MODULE_DIR$/Mutual_Information_Main/Data/IGFR/experimental_data/Properly_Weighted_With_Zero" />
+      <excludeFolder url="file://$MODULE_DIR$/Mutual_Information_Main/Data/IGFR/experimental_data/All_Doses_Properly_Weighted_With_Zero" />
+      <excludeFolder url="file://$MODULE_DIR$/Mutual_Information_Main/General_Data_Generation/IGFR_Experimental_Data_Processing/single_dose_processing" />
+      <excludeFolder url="file://$MODULE_DIR$/Mutual_Information_Main/General_Data_Generation/Unused/IGFR_Generating_model_Single_Cell_trajectory" />
+      <excludeFolder url="file://$MODULE_DIR$/Mutual_Information_Main/General_Data_Generation/Unused/IGFR_Generating_experimental_I_trajectory" />
+      <excludeFolder url="file://$MODULE_DIR$/Mutual_Information_Main/General_Data_Generation/Unused/Generate_Mean_pIGF_pAkt_Ranges" />
+      <excludeFolder url="file://$MODULE_DIR$/Mutual_Information_Main/Figure_Generating_Programs/Unused/D_maybe" />
+      <excludeFolder url="file://$MODULE_DIR$/Mutual_Information_Main/Figure_Generating_Programs/Unused/EGFR_Joint" />
+      <excludeFolder url="file://$MODULE_DIR$/Mutual_Information_Main/Figure_Generating_Programs/Unused/IGFR_Expt_Dose_Resp" />
     </content>
     <content url="file://$MODULE_DIR$/Mutual_Information_Final_Version/Data/EGFR" />
     <content url="file://$MODULE_DIR$/Mutual_Information_Final_Version/Data/Figure_Generating_Data" />

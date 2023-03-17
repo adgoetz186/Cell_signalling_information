@@ -1,9 +1,0 @@
-# Arguments should be specified of the form:
-# arg_name: arg
-# arg is read with eval() function so should be of appropriate form
-# location of experimental data as provided by the Heiser lab
-raw_mutlidose_file: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/IGFR/experimental_data/Raw/MultiDose.csv"
-# location of processed experimental data
-output_mutlidose_file: "/Users/agoetz/PycharmProjects/Cell_signalling_information/Mutual_Information_Final_Version/Data/IGFR/experimental_data/adjusted_multidose/MultiDose.csv"
-# average initial nuclear foxo
-foxo_0: 2/3*710

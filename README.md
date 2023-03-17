@@ -18,7 +18,7 @@ The "[Mathematica_Moment_Code](Mutual_Information_Main/Mathematica_Moment_Code/)
 
 # Setup
 
-The raw data used in this code is stored here: (). To run any of the programs used in this project, download the raw data and place it in the [Mutual_Information_Main](Mutual_Information_Main) directory.
+The raw data used in this code is stored (here)[https://zenodo.org/record/7743531]. To run any of the programs used in this project, download the raw data and place it in the [Mutual_Information_Main](Mutual_Information_Main) directory.
 
 ## Troubleshooting
 

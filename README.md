@@ -1,6 +1,6 @@
 # Cell Signalling Information
 
-Code used to generate data for paper "Information Transmission by Individual Cells"
+Code used to generate data for paper "[The ability to sense the environment is heterogeneously distributed in cell populations](https://www.biorxiv.org/content/10.1101/2023.03.07.531554v2.abstract)" Andrew Goetz*, Hoda Akl*, Purushottam D Dixit *contributed equally
 
 # Project Organization
 
